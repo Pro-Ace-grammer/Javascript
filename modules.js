@@ -1,12 +1,12 @@
-//Mudules - functions
+//Mudules (functions)
 
-//sayHi function
+//sayHi module
 const sayHi = (name) => {
     console.log(`hello how are you ${name}`);
 }
 sayHi(`Adriel`)
 
-//User defined function
+//Demo Modules to calculate factorial
 const factorial = (no) => {
     let f=1
     var i
