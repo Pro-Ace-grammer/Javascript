@@ -7,4 +7,4 @@ const n2=32
 function add(){
     console.log(`sum of two numbers is : ${ n1 + n2}`);
 }
-add()   //function is already invoked or called
+add();  //function is already invoked or called

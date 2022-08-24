@@ -1,0 +1,11 @@
+here is the result :- hello this is first text file 
+just to understand the fs  modules 
+, hello this is my second text file 
+this is also to understand the fs modules
+yeahhh!!!!
+lets do it;-)here is the result :- hello this is first text file 
+just to understand the fs  modules 
+, hello this is my second text file 
+this is also to understand the fs modules
+yeahhh!!!!
+lets do it;-)

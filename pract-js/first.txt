@@ -1,0 +1,2 @@
+hello this is first text file 
+just to understand the fs  modules 

@@ -7,4 +7,4 @@ while(temp>0)
     rev= rev*10 + rem;
     temp= Math.floor(temp/10);
 }
-console.log(`reverse of the number ${a} is =`+rev);
+console.log(`reverse of the number ${a} is = ${rev}`);

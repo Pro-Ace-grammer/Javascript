@@ -1,0 +1,4 @@
+hello this is my second text file 
+this is also to understand the fs modules
+yeahhh!!!!
+lets do it;-)
