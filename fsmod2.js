@@ -10,4 +10,4 @@ readFile(`./pract-js/first.txt`,`utf-8`,(err,result) => {   //here in the second
     console.log(result);
 }
 )
-//
+//   
