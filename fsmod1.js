@@ -14,7 +14,6 @@ const { readFileSync, writeFileSync } = require(`fs`) //reading and writing the 
 const fst = readFileSync(`./pract-js/first.txt`); //here the output will be im encoded form 
 const sec = readFileSync(`./pract-js/second.txt`,`utf-8`); //here the output will be in readable form(decoded)
 
-
 //now next is writefs
 //this will craate one from the scratch 
 //or if it already exists then it will replace the file
