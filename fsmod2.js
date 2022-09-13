@@ -7,7 +7,20 @@ readFile(`./pract-js/first.txt`,`utf-8`,(err,result) => {   //here in the second
         console.log(err);
         return
     }
-    console.log(result);
+    const first = result;
+
+    readFile(`./pract-js/second.txt`,`utf-8`,(err,result) => {   //here in the second parameter we pass call back function
+    if(err){ 
+        console.log(err);
+        return
+    }
+    const second = result;
+    writeFile(
+        `./pract-js/result-sync.txt`,
+        `here is the result : ${first}, ${second}`, 
+        { flag: `a`}
+    )       
 }
 )
-//   
+})
+//   utf-8 is for decoding the encoded file
