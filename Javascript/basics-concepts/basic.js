@@ -33,6 +33,21 @@ comment*/
 //operator :- used to assign values, compare values. perform arithmetic operations
 //= + - * / % && || != < > <= >= == ! & | :- these are some of the operators used
 
+/* Math Operators
+Multiply *
+Divide /
+Exponents **
+Modulo/Remainder %  5%2 = 1
+Add +
+Subtract -
+*/
+
+/* Math Methods
+Floor - Rounds down //if i have a number as 2.3 it will round it down to 2
+Ceil - Rounds up //if i have a number as 4.578 it will round it up to 5
+Random - gives you number between 0 and 1  // but we wanna try and get a number between 0 and any other number we just have to multiply the number to the function
+*/
+
 //OPERATORS
 //to find the tip amount
 
@@ -76,5 +91,29 @@ console.log('Total amount to be paid: ' + total) //if we do this we won't get th
 //So basiclly in reality when we create apps we don't use prompt  or alert 
 
 
-//above were some of the basics in javasctipt
-//there is more to go which are covered in some other programs do check out
+// Simple weather app 
+//conditional
+//if it rains 'Use your umbrella'
+//if its sunny 'Use your sunglasses'
+//if its cold 'wear sweater'
+/*
+
+let weather = 'warm'
+
+if (weather == 'rain' || weather == 'rainy' || weather == 'raining' || weather == 'cloudy' || weather == 'rain') {
+  console.log('Use your Umbrella')
+} else if (weather == 'sunny' || weather == 'hot' || weather == 'warm') {
+  console.log('Wear your sunglasses')
+} else {
+  console.log('Wear sweater')
+
+}
+
+*/
+
+
+
+//FUNCTIONS
+/*
+Function : its a block of code designed 
+to perform a partiicular task and its executed when it is called */
