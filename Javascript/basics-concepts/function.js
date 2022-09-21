@@ -15,7 +15,7 @@ function sayMyName(){
   // so to call it we say 
   sayMyName();  //that's it now oncw it encounters this statement the function will be executed
 
-  
+
 
 //Function Arguments
 //these are the values recieived by the function when it is called, they are like variables which live only within the fucntions and not outside of it
@@ -24,7 +24,7 @@ function sayMyName(){
 function sum(a,b)//function sum is taking two arguments a and b
 { 
    let add = a + b;
-  console.log(add);
+  console.log(add);  //or I can directly use return function : return a+b
 }
 //user input can be done as below
 //sum(Number(prompt('a:')),Number(prompt('b:')));
@@ -43,3 +43,17 @@ function greeting(name) {
   }
   
   greeting('Johnny Depp')
+
+
+  //Tip calculator using functions
+  function caltip(food, tip) {
+    tiper = tip / 100
+    tipamnt = tiper * food;
+    console.log('Tip amount:-' + tipamnt)
+    total = tipamnt + food;
+    return total;
+  }
+  console.log('Total amount to be paid: ' + caltip(200, 34));
+
+
+  
