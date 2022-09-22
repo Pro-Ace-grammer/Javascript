@@ -102,7 +102,9 @@ let weather = 'warm'
 
 if (weather == 'rain' || weather == 'rainy' || weather == 'raining' || weather == 'cloudy' || weather == 'rain') {
   console.log('Use your Umbrella')
-} else if (weather == 'sunny' || weather == 'hot' || weather == 'warm') {
+} else if (weather == 'sunny' || weather == 'hot' || weather == 'warm') 
+//The above statement for example can be also written using string functions as // if (weather.match('sunny'))
+{
   console.log('Wear your sunglasses')
 } else {
   console.log('Wear sweater')

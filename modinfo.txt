@@ -1,0 +1,5 @@
+There are two types of modules
+-Common js modules
+-ECMA scritp modules
+
+
