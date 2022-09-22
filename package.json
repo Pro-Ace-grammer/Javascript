@@ -14,7 +14,6 @@
     "url": "git+https://github.com/Pro-Ace-grammer/node-js.git"
   },
   "author": "Arsalan",
-  "type": "module",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Pro-Ace-grammer/node-js/issues"
