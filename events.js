@@ -11,7 +11,7 @@ myEmitter.on('WaterFull', () => { //unless the event is fired this code won't ru
   console.log('Turn off Motor');
   setTimeout(() => {
     console.log("please turn it off, its a gentle reminder");
-  }, 3000);
+  }, 5000);
 });
 
 //the code outside the above block of code is still going to run no matter what
